@@ -1,0 +1,46 @@
+.extra-image img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 20px;
+}
+
+.marioParagraph {
+    color: goldenrod;
+    height: 1.1em;
+    border-style: dotted;
+    border-color: blanchedalmond;
+    border-radius: 30px;
+}
+
+#first{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#second{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.centered { 
+    float: top;
+    position: relative; 
+    top: 50% 
+    /* transform: translate(-50%, -50%); */
+}
+
+.centered h1{ 
+    position: absolute; 
+    transform: translate(100%, 900%);
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.centered img{ 
+    width: 80%;
+    margin: 20px;
+}
