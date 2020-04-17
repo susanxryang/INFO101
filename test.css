@@ -13,15 +13,21 @@ h1 {
     font-family: 'Passion One', cursive;
 }
 
+#LeftNav{
+    width: 300px;
+    padding-bottom: 8px;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+
+#LeftNav img{
+    width: 280px;
+}
+
 ul {
     list-style-type: none;
     padding-left: 0px;
-}
-
-#LeftNav{
-    width: 400px;
-    padding-bottom: 8px;
-    text-align: center;
 }
 
 #Content{
@@ -52,8 +58,11 @@ h3 {
 body {
     background-image: url("price.jpg");
     background-size: contain;
+    display: block;
 }
 
 #Footer {
     text-align: center;
+    align-content: center;
+    width: 90%;
 }
