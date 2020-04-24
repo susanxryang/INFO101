@@ -20,6 +20,7 @@ Released   : 20140207
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 <link href="addStyle.css" rel="stylesheet" type="text/css" media="all" />
+<!-- <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"> -->
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
@@ -34,11 +35,11 @@ Released   : 20140207
 					</span> </div>
 				<div id="menu">
 				<ul>
-					<li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
+					<li><a href="index.html" accesskey="1" title="">Homepage</a></li>
 					<li><a href="clients.html" accesskey="2" title="">Our Clients</a></li>
 					<li><a href="#" accesskey="3" title="">About Us</a></li>
 					<li><a href="#" accesskey="4" title="">Careers</a></li>
-					<li><a href="contact.html" accesskey="5" title="">Contact Us</a></li>
+					<li class="current_page_item"><a href="#" accesskey="5" title="">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
@@ -46,16 +47,32 @@ Released   : 20140207
 	<div id="wrapper2">
 		<div id="welcome" class="container">
 			<div class="title">
-				<h2>Inspirations</h2>
+				<h2>Contact Us</h2>
 			</div>
-			<div class="inspo-container">
-				<img src="https://cdn-images.farfetch-contents.com/14/66/45/50/14664550_23678474_300.jpg">
-				<img src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton--FJBL04UUH650_PM2_Front%20view.jpg?wid=300&hei=300">
-				<img src="https://www.justineclenquet.com/wp-content/uploads/2017/05/Kirsten-necklace-2.jpg">
-				<img src="https://i.pinimg.com/originals/e4/8a/ab/e48aab3b09a9e1955050445ea0019f0c.jpg">	
-				<img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/coherence-black-and-white-modern-art-lourry-legarde.jpg">
-				<img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Tame_Impala_-_Currents.png">
-			</div>
+
+			<fieldset class="form-horizontal" >
+				<legend>Send Us A Message</legend>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Name</label>
+					<div class="col-sm-9">
+						<input class="form-control" type="text" name="_replyto">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Email</label>
+					<div class="col-sm-9">
+						<input class="form-control" type="email" name="email">
+					</div>
+				</div>
+				<div class="form-group">
+						<label class="col-sm-3 control-label">Message</label>
+						<div class="col-sm-9">
+							<textarea class="form-control" type="message" name="message" rows="6"></textarea>
+						</div>
+					</div>
+							
+			</fieldset>	
+			<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
 		</div>
 	</div>
 	<div id="wrapper3">
