@@ -1,1 +1,1 @@
-# xuanry-1839230.github.io
+# INFO101 - Social Networking Technologies
